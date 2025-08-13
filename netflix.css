@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    height:90vh;
+    position:relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_large.jpg");
+}
+.main .box{
+    position: absolute;
+    height:90vh;
+    width:100%;
+    opacity:0.69;
+    background-color: black;
+    top:0;
+}
+nav{
+    max-width: 60vw;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:62px;
+}
+nav img{
+    color: red;
+    width:130px;
+    position: relative;
+    z-index: 10;
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height:calc(100% - 62px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+     font-family: "Martel Sans", sans-serif;
+     gap:23px;
+     padding:0px 30px;
+}
+.hero span:first-child{
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center; 
+}
+.hero span:nth-child(2){
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+}
+.hero span:nth-child(3){
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: center;     
+}
+.separation{
+height:7px;
+background-color: darkgray;
+}
+.btn{
+    padding:3px 8px;
+    background-color: rgba(248,243,243,0.021);
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius:4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color:white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.btn-red-sm{
+    background-color: red;
+    color:white;
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border:1px solid rgba(246,238,238,0.5);
+    color:white;
+}
+.icons{
+    height:60vh;
+    width:98vw;
+    display: flex;
+}
+.icons div{
+    font-weight: bolder;
+    color:white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: sticky;
+}
+.icons span{
+    margin-top: 80px;
+}
+.icons img{
+    border-radius: 23px;
+    padding: 20px;
+    z-index: 2;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+background-color: #000000d3;
+color: white;
+padding:34px;
+}
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+.faqbox{
+    transition:all 1s ease-out;
+    display:flex;
+    background-color: #2d2d2d;
+    padding:24px;
+    width: 60vw;
+    margin:20px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+}
+.faqbox svg{
+    filter:invert(1);
+}
+footer{
+    color: white;
+    margin:auto;
+    max-width:60vw;
+    padding:34px;
+}
+footer .no{
+    padding:34px 0px;
+}
+footer a{
+    color:white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footeritem{
+    display:flex;
+    flex-direction: column;
+    gap:23px;
+}
